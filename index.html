@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <style>
+      
+     
+        .page{
+            width: 800px;
+            height: 1150px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            background-color: rgb(224, 193, 210);
+            
+            border:solid 2px black ;
+
+        }
+      
+
+       
+
+        .header{
+            
+            position: relative;
+  
+  color: white;
+           
+        }
+
+        .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.imgcontainer{
+    float: left;
+    border-radius:40px;
+  
+ 
+ 
+
+}
+
+        .navlink{
+           
+            background-color:black;
+            
+            overflow: hidden;
+        }
+        
+        .navlink a{
+     float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+        }
+        .navlink a:hover{
+            background-color: rgb(122, 128, 128);
+            color: rgb(243, 245, 245);
+        }
+        ul{
+            list-style-type: square;
+        }
+.leftcolumn{
+    float: left;
+    width: 50%;
+}
+.rightcolumn{
+    float: right;
+    width:50%;
+}
+.row ::after{
+         content:"" ;
+         display: table;
+         clear: both;
+     }
+     @media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+     
+    
+
+    
+        .footer {
+            background-color: rgb(15, 14, 14);
+            height: 55px;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+          padding: 5px 5px 2px 5px;
+            margin: 2px;
+            
+           color: white;
+           
+            clear: both;
+  
+}
+p{
+    text-align: justify;
+}
+    </style>
+
+</head>
+<body>
+    <div class="page">
+
+    <div class="header">
+        <img src="banner.jpg" width="100%">
+        <div class="centered">My website</div>
+        
+        
+        </div>
+
+        <div class="navlink">
+            <a href="#">Home</a>
+            <a href="#">My portoflio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="row">
+
+        <div class="leftcolumn">
+            <div class="card">
+                <div class="imgcontainer" ><img src="C:\Users\OWNER\Desktop\course\bem-project\ranapic.jpg"  width="150px" height="150px"  ></div>
+              <span style="text-align: center;" ><h2>Personal Information</h2></span>  
+                
+            
+               <ul>
+                   <li>Age:34</li>
+                   <li>Email Address:rana_ashraf26@hotmail.com</li>
+                   <li>Home:0727193244</li>
+                   <li>Address:Sweden</li>
+               </ul>
+                </div>
+            
+            <div class="card">
+                <h2>My Skills</h2>
+                <ul>
+                    <li>Team Work</li>
+                    <li>Problem Solving</li>
+                    <li>Creatvitiy</li>
+                    <li>Organization</li>
+                    <li>Adaptability</li>
+                </ul>
+                <h2>Language</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Arabic</li>
+                    
+                    
+                </ul>
+                    </div>
+            
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+               
+            <h1>About Me</h1>
+          
+            
+                <p > I moved to Sweden 3 and half years ago with my husband and 3 years old son.
+                    I have recently started taking a frontend devloper course. 
+                    My ability to get along well with others, to make necessary adjustments to meet deadlines, 
+                        and effectively coordinate in fast paced enviroments have all contributed to my growth in this field and
+                         my employers placing a significant degree of trust in me.I offer significant abilities and experience in organizing, prioritizing, confidentiality of
+                          documents and detailed preparation of reports and projects. </p>
+                </div>
+             
+             <div class="card">
+                 <h1>Experience</h1>
+                 <h3>Rm Solution 1/12/2008 till 1/12/2011</h3>
+                 Worked as a <em>web design</em>Optimizing the user experience.
+                 Using HTML, JavaScript and CSS to bring concepts to life,
+                 Developing and maintaining the user interface,
+                 Implementing design on mobile websites,
+                 Creating tools that improve site interaction regardless of the browser,and
+                 Managing software workflow.
+                                     
+                                </div>
+             
+              
+            </div>
+       
+        
+        
+    
+       
+          </div>
+
+        </div>
+
+ 
+</body>
+</html>
